@@ -10,6 +10,24 @@ Remember, it's self-paced so feel free to take a break! ☕️
 
 [![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/ranjangupta42/skills-integrate-mcp-with-copilot/issues/1)
 
+## Custom Code Review Agent
+
+This repository includes a custom GitHub Copilot agent specialized in reviewing **Python**, **Go**, and **Rust** code. The agent provides comprehensive code reviews covering:
+
+- 🔒 Security vulnerabilities
+- ⚡ Performance optimizations  
+- 📝 Code quality and best practices
+- 🐛 Bug detection and error handling
+- 🎨 Language-specific idioms and patterns
+
+### Quick Start
+
+```
+@code-review-agent Review this file for issues
+```
+
+For detailed usage instructions, see [.github/agents/USAGE.md](.github/agents/USAGE.md)
+
 ---
 
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
