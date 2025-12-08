@@ -33,8 +33,8 @@ def divide(a, b):
 
 class UserManager:
     def __init__(self):
-        self.users={}  # PEP 8: space around =
+        self.users={}  # PEP 8: missing spaces around assignment operator
     
-    def AddUser(self,name,email):  # PEP 8: snake_case for methods, spaces after commas
-        self.users[email]=name
+    def AddUser(self,name,email):  # PEP 8: method should be snake_case, missing spaces after commas
+        self.users[email]=name  # PEP 8: missing spaces around assignment operator
         return True
